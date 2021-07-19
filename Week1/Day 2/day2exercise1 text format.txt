@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 12-week Full-stack Web Development Course
+        <meta charset="utf-8">
+        </title>
+        <body>  
+            <h1><p style="text-align: center;">12-week Full-stack Development Course</p></h1><br>
+            <h3><p style="text-align: justify;">Start with the basics and build up real-world projects that will make you a valuable asset to any tech company. Learn full-stack web development with latest technology and industry best practices.</p></h3>
+            <a href="HTML logo"></a>
+                <img src="C:\Users\bluFi\OneDrive\Desktop\Kodego\images\html.png" width="200" height="200" alt="HTML logo" border="0"/> 
+            <a href="CSS logo"></a>
+                <img src="C:\Users\bluFi\OneDrive\Desktop\Kodego\images\CSS.png" width="150" height="200" alt="CSS logo" border="0"/> 
+            <a href="Javascript logo"></a>
+                <img src="C:\Users\bluFi\OneDrive\Desktop\Kodego\images\Javascript.png" width="150" height="200" alt="Javascript logo" border="0"/>
+            <h4><b>Web Development Essentials:</b></h4>
+            <ol type="1">
+                <li><a href="Intro URL">Intro to Web Development</a></li>
+                <li><a href="Command Line">Command Line Interface</a></li>
+                <li><a href="Basics">Basics of Programming</a></li>
+                <li><a href="HTML and CSS">HTML and CSS Fundamentals</a></li>
+                <li><a href="Web Design">Responsive Web Design</a></li>
+                <li><a href="Bootstrap">Bootstrap CSS Framework</a></li>
+                <li><a href="Version Control">Version Control with Git and Github</a></li>
+            </ol>
+        <h4><b>Activities</b></h4>
+        <ul>
+            <li><a href="Code">Code-along</a></li>
+            <li><a href="Quizes">Quizes and Games</a></li>
+            <li><a href="Pair">Pair Programming</a></li>
+            <li><a href="Peer">Peer Review</a></li>
+            <li><a href="Code">Code Relay</a></li>
+            <li><a href="Coding">Coding Challenges</a></li>
+            <li><a href="Project">Project Presentation</a></li>
+        </ul>
+        <a href="https://www.google.com/maps/place/Globe+Telecom+Plaza/@14.571757,121.049809,15z/data=!4m5!3m4!1s0x0:0xf50b5ce937fcfc83!8m2!3d14.571757!4d121.049809"></a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15445.916226043328!2d121.049809!3d14.571757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf50b5ce937fcfc83!2sGlobe%20Telecom%20Plaza!5e0!3m2!1sen!2sph!4v1625632760874!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
+        </body>
+    </head>
+</html>

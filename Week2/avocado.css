@@ -1,0 +1,37 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+ 
+.container{
+    display:flex;
+    height:60vh;
+}
+.container nav{
+    order:-1;
+}
+
+header, footer{
+    background-color:yellowgreen;
+    height: 20vh;
+}
+
+.container nav, aside{
+    background:beige;
+    flex:1;
+}
+
+header, footer, aside, nav, article{
+    padding:30px;
+    text-align: center;
+}
+.container article{
+    flex:3;
+}
+@media screen and (max-width:675px) {
+    .container{
+        flex-direction: column;    
+    }   
+}

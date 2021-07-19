@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Grid Exercise</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            .main-grid{
+                display:grid;
+                grid-template-columns: 40% 60%;
+                border: 1px solid #636A72;
+    
+            }
+            .main-grid div{
+                padding: 2em;
+            }
+            .main-grid .side-grid {
+                background-color: #2362A9;
+                line-height: 1em;
+                color:#fff;
+            }
+            .sub-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                background-color: #DDDFE1;
+            }
+            .sub-grid input, textarea, button{
+                border: 1px solid;
+                border-radius: 2px;
+                padding: 5px;
+                width: 100%;
+                
+            }
+            .sub-grid .message{
+                display:grid;
+                grid-column: 1 / span 2;
+                
+            }
+            .sub-grid .message button{
+                padding: 10px;
+                border: none;
+                background-color: #ACAEB1;
+                border-radius: 3px;
+                
+            }
+            .sub-grid .message button:hover {
+                transform: scale(0.98);
+            }
+            
+            @media(max-width:768px){
+                .main-grid{
+                    display: grid;
+                    grid-template-columns: 1fr;  
+                
+                }
+                .sub-grid{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+                .sub-grid input{
+                    min-width: 150px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-grid">
+            <div class="side-grid">
+                <h4>Our Contacts</h4><br>
+                <p>123 Kamagong St.</p>
+                <p>801212121-11</p>
+                <p>mail@mail.com</p>
+            </div>
+            <div class="sub-grid">
+                <div>
+                    <label fname="name">Your name</label><br>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label fname="email">Email Address</label><br>
+                    <input type="email" id="email" name="email"><br>
+                </div>
+                <div>
+                    <label fname="email">Skype</label><br>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label fname="topic">Topic</label><br>
+                    <input type="text" id="topic" name="topic"><br>
+                </div>
+                <div class="message">
+                    <label fname="name">Write your message</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea><br>
+                    <button type="send" form="nameform" value="Send">Send</button>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

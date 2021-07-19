@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+#table-1{
+    border-collapse: collapse;
+    border:1px lightgray solid;
+    float:left;
+    margin-left:20px;
+    margin-right:20px;
+}
+#table-1 td{
+    padding:20px 0;
+    padding-left:10px;
+}
+.mytext{
+    text-align:center;
+    color:blue;
+    padding:15px;
+}
+#table-1 th{
+    padding-right:100px;
+    text-align:center;
+    padding-left:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.mycolor{
+    background-color:lightgray; 
+}
+
+/* end of Male Participants */
+
+
+#table-2{
+    border-collapse: collapse;
+    border:1px lightgray solid;
+    float:right;
+    margin-right:20px;
+    margin-left:20px;
+}
+#table-2 td{
+    padding:20px 0;
+    padding-left:10px;
+}
+
+#table-2 th{
+    padding-right:100px;
+    text-align:center;
+    padding-left:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+@media(max-width:600px){
+    #table-1{
+        width:100%;
+        float:none;
+    }
+    #table-2{
+        width:100%;
+        float:none;
+    }
+}

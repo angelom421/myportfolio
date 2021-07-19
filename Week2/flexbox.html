@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang=en>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin:0;
+            display:flex;
+            min-height:100vh;
+            text-align:center;
+        }
+        .navbar{
+            background:rgb(175, 175, 23);
+            flex:1;
+        }
+        
+        .main-container{
+            display: flex;
+            flex: 4;
+            flex-direction: column;
+        }
+
+        header, article, aside, footer, nav{
+            padding:15px;
+        }
+
+        header, footer{
+            background: yellowgreen;
+            height:20vh;
+        }
+
+        .middle-container{
+            display:flex;
+    
+        }
+        .middle-container nav{
+            background: rgb(119, 114, 114);
+            flex: 1;
+            min-height: 60vh;
+        }
+
+        .middle-container article{
+            flex: 3;
+            min-height: 60vh;
+        }
+
+        .middle-container aside{
+            background: beige;
+            flex: 1;
+        }
+        form{
+            box-sizing: border-box;
+            background: burlywood;
+            margin:0 50px 0 20px;
+    
+        }
+        .myform{
+            display:flex;
+            height: 85%;
+            padding-top: 20px;
+            padding-left:20px;
+        }
+        .showcase{
+            display:flex;
+            flex-direction: column;
+            text-align:left;
+            box-sizing: border-box;
+            width:50%;
+            padding:10px;
+            margin-bottom:20px;  
+       }
+
+       .middle-container article h2{
+            text-align:left;
+
+       }
+       .sidecase{
+            text-align:left;
+            box-sizing: border-box;
+            width:50%;
+            padding-top:5px;
+            padding-left:50px;
+            margin-bottom:50px;  
+       }
+       .showcase input{
+           height:25px;
+       }
+       .showcase .p-box{
+           text-align: right;
+       }
+    </style>
+    <body>
+
+   
+
+        <!--Group Container-->
+
+        <div class="main-container">
+            <header>
+                <h2>Header</h2>
+            </header>
+       
+            
+            <div class="middle-container"> 
+                <article>
+                    <h2>Article</h2>
+                    <form class="myform">
+                       <div class="showcase"> 
+                            <label for="name">Name</label>
+                            <input placeholder="enter Full Name..." type="text" name="name"><br>
+
+                            <label for="phone">Phone</label>
+                            <input placeholder="enter Contact Number..." type="text" name="phone"/><br>
+
+                            <label for="email">Email</label>
+                            <input placeholder="enter Email Address..." type="email" name="email"/><br>
+
+                            <label for="date/time">Pickup Date/Time</label> 
+                            <input type="datetime-local" name="date/time"/><br> 
+                            <label for="place">Dropoff Place</label>
+                            <input placeholder="enter Dropoff Location.." type="place" name="dropoff place"/>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="p-box">
+                                <input type="submit" value="Submit Booking"> 
+                            </div>
+                        </div> <!--end of showcase-->
+
+                        <div class="sidecase">
+                            <p>Which verhicle do you require?</p>
+                            <input type="radio" id="van" name="vehicle" value="Van">
+                            <label for="van">Van</label><br>
+                            <input type="radio" id="jeepney" name="vehicle" value="Jeepney">
+                            <label for="jeepney">Jeepney</label><br>
+                            <input type="radio" id="tricycle" name="vehicle" value="Tricycle">
+                            <label for="tricycle">Tricycle</label><br>
+                            <br>
+                            <p>Extras</p>
+                            <input type="checkbox" id="extras1" name="extras1" value="Baby Seat">
+                            <label for="extras1">Baby Seat</label><br>
+                            <input type="checkbox" id="extras2" name="extras2" value="Wheelchair">
+                            <label for="extras2">Wheelchair Access</label><br>
+                            <input type="checkbox" id="extras3" name="extras3" value="Tip">
+                            <label for="extras3">Stock Tip</label>
+                        </div><!--end of sidecase-->
+                        
+                    </form><!--end of myform-->
+                </article>
+
+                <aside>
+                    <h2>Aside</h2>
+                </aside>
+
+                <nav>
+                    <h2>Nav</h2>
+                </nav>
+            </div>
+
+            <footer>
+                <h3>Footer</h3>
+            </footer>
+        </div>
+    </body>    
